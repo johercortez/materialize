@@ -1,0 +1,117 @@
+*,h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    font-family: 'Indie Flower', cursive;
+}
+
+.logo_header a{
+    margin: 5px;
+    text-shadow: 1px 3px 5px rgba(0,130,95,0.64);
+    font-family: 'Pacifico';
+    line-height: 50px;
+    font-size: 1.9rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #00825f;
+}
+
+a i{
+    color: #00825f;
+}
+
+ul li a{
+    color: #000;
+    font-size: 18px;
+}
+
+.Header nav{
+    Width: 100%;
+    background-color: #fff;
+    height: 60px;
+    position: fixed;
+    box-shadow: 0 3px 5px rgba(60,60,60,0.44);
+}
+
+.portada{
+    background-image: url(/img/tec.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    padding: 85px;
+}
+
+.portada .row img{   
+    border-radius: 50%;
+    height: 250px;
+}
+
+.row h1{
+    text-shadow: 1px 3px 5px rgba(81, 33, 121, 0.64);
+    font-family: 'Pacifico';
+    line-height: 50px;
+    font-size: 50px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.portada .row p{
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 0 0 6px rgba(0,0,0,0.53);
+}
+
+.ItemLenguaje {
+    margin-bottom: 2rem;
+    width: 95%;
+    background-color: #fff;
+    box-shadow: 0 0 7px rgba(60,60,60,0.44);
+    padding: 2.5rem;
+    max-width: 350px;
+    font-size: 18px;
+}
+
+.ItemLenguaje__text h2{
+    margin: 5px;
+    text-shadow: 1px 3px 5px rgba(0,130,95,0.64);
+    font-family: 'Pacifico';
+    line-height: 50px;
+    font-size: 1.9rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #00825f;
+}
+
+
+@media (max-width: 480px){
+    .portada .row img{   
+        border-radius: 50%;
+        height: 150px;
+    }
+
+    .row h1{
+        font-size: 20px;
+    }
+
+    .portada .row p{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1024px){
+    .logo_header a{
+        font-size: 24px;
+    }
+    .portada .row img{   
+        border-radius: 50%;
+        height: 180px;
+    }
+
+    .row h1{
+        font-size: 25px;
+    }
+
+    .portada .row p{
+        font-size: 20px;
+    }
+}

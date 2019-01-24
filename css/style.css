@@ -33,7 +33,7 @@ ul li a{
 }
 
 .portada{
-    background-image: url(/img/tec.jpg);
+    background-image: url(../img/tec.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -67,7 +67,7 @@ ul li a{
     background-color: #fff;
     box-shadow: 0 0 7px rgba(60,60,60,0.44);
     padding: 2.5rem;
-    max-width: 350px;
+    max-width: 100%;
     font-size: 18px;
 }
 
@@ -100,7 +100,7 @@ ul li a{
 
 @media (max-width: 1024px){
     .logo_header a{
-        font-size: 24px;
+        font-size: 20px;
     }
     .portada .row img{   
         border-radius: 50%;
@@ -108,10 +108,31 @@ ul li a{
     }
 
     .row h1{
-        font-size: 25px;
+        font-size: 28px;
     }
 
     .portada .row p{
-        font-size: 20px;
+        font-size: 23px;
     }
+}
+
+/* sobre mi */
+
+.sbmt{
+    margin-bottom: 2rem;
+    width: 95%;
+    background-color: #fff;
+    text-shadow: 1px 3px 5px rgba(0,130,95,0.64);
+    box-shadow: 0 0 7px rgba(60,60,60,0.44);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    max-width: 100%;
+    font-size: 18px;
+}
+
+.sbtmt{
+    margin: 5px;
+    text-shadow: 1px 3px 5px rgba(0,130,95,0.64);
+    font-family: 'Pacifico';
+    text-decoration: none;
 }

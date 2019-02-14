@@ -73,13 +73,13 @@ ul li a{
 
 .ItemLenguaje__text h2{
     margin: 5px;
-    text-shadow: 1px 3px 5px rgba(0,130,95,0.64);
+    /* text-shadow: 1px 3px 5px rgba(0,130,95,0.64); */
     font-family: 'Pacifico';
     line-height: 50px;
     font-size: 1.9rem;
     font-weight: bold;
     text-decoration: none;
-    color: #00825f;
+    /* color: #00825f; */
 }
 
 
@@ -190,4 +190,14 @@ ul li a{
     border-top: 1px solid #e6e6e6;
     padding: 2rem 0 2rem 0;
     margin-top: 3rem;
+}
+
+/*curriculum*/
+
+.cv .h4{
+    color:#545353;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 1rem;
+    font-weight: bold;
 }

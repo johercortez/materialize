@@ -96,6 +96,7 @@ ul li a{
     .portada .row p{
         font-size: 20px;
     }
+
 }
 
 @media (max-width: 1024px){
@@ -113,7 +114,7 @@ ul li a{
 
     .portada .row p{
         font-size: 23px;
-    }
+    }    
 }
 
 /* sobre mi */
@@ -126,18 +127,67 @@ ul li a{
     box-shadow: 0 0 7px rgba(60,60,60,0.44);
     padding-top: 1rem;
     padding-bottom: 1rem;
-    max-width: 100%;
     font-size: 18px;
-}
-
-.sbtmt{
-    margin: 5px;
-    text-shadow: 1px 3px 5px rgba(0,130,95,0.64);
-    font-family: 'Pacifico';
-    text-decoration: none;
-    width: 100%;
 }
 
 .scont{
     width: 75%;
+}
+
+@media (max-width:992px){
+    .scont{
+        width: 90%;
+    }
+
+    .par{
+        text-align: center;
+    }
+}
+
+@media (min-width:720px){
+    div .sbm{
+        width: 5000px;
+    }
+}
+
+/*footer*/
+
+.footer{
+    background-color: #fff;
+}
+
+.footer h5 , ul li a{
+    color:#545353;
+}
+
+.footer ul li a{
+    color:rgb(83, 122, 204);
+}
+
+.social a{
+    margin: 0 .5rem 1rem .5rem;
+}
+
+.inicio h5{
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.centro h5{
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #e6e6e6;  
+}
+
+.fin h5{
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.subfooter p{
+    border-top: 1px solid #e6e6e6;
+    padding: 2rem 0 2rem 0;
+    margin-top: 3rem;
 }
